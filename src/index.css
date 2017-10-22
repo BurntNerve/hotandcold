@@ -67,6 +67,7 @@ body {
   height: 4vh;
   width: 15vw;
   font-size: 2vh;
+  outline: 0;
 }
 
 .againButton {

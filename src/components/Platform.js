@@ -8,8 +8,8 @@ export default class Platform extends React.Component {
     super(props);
     this.state = {
       guess: '',
-      attempts: 0,
-      result: 'cold',
+      attempts: 1,
+      result: '',
       history: [],
       game: 'playing'
     };
