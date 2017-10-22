@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  font-size: 8vh;
+  padding-top: 5vh;
+}
+
+.hot {
+  color: #bc404f;
+}
+
+.cold {
+  color: #4da5a9;
+}
+
+.platform {
+  background-color: white;
+  height: 35vh;
+  width: 40vw;
+  margin: 10vh auto;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.display {
+  text-align: center;
+  height: 20%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size: 2vh;
+}
+
+.guessInput {
+  display: block;
+  margin: 5% auto 5% auto;
+  width: 50%;
+  text-align: center;
+  height: 3vh;
+  font-size: 2vh;
+  border: 0;
+  border-bottom: 1.499px solid #333;
+  outline: 0;
+}
+
+.guessButton {
+  background-color: #bc404f;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 3%;
+  height: 4vh;
+  width: 15vw;
+  font-size: 2vh;
+}
+
+.history {
+  display: block;
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15%;
+}
