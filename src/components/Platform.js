@@ -48,7 +48,7 @@ export default class Platform extends React.Component {
       alert('Please enter a number.');
     } else if (guess > 100 || guess < 0) {
       alert('Please enter a number between 0 and 100');
-    } else if (guess == false) {
+    } else if (guess === '') {
       alert('Please enter an answer.');
     } else {
       const absoluteValue = Math.abs(guess - this.props.targetNumber);
